@@ -21,8 +21,8 @@ const PORT = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
     res.send("kekw");
-})
+});
 
 app.listen(PORT, () => {
     console.log("kekw3");
-})
+});

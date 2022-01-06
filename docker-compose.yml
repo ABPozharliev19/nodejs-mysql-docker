@@ -23,7 +23,7 @@ services:
     ports:
       - 4000:4000
     environment:
-      - PORT=5000
+      - PORT=4000
       - DB_HOST=mysqldb
       - DB_PASSWORD=idk
       - DB_USER=root
