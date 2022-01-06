@@ -6,11 +6,11 @@
   "dependencies": {
     "express": "^4.17.2",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon -L app.js"
   },
   "author": "",
   "license": "ISC"

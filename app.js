@@ -20,9 +20,9 @@ connection.connect((err) => {
 const PORT = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
-    res.send("pog");
+    res.send("kekw");
 })
 
 app.listen(PORT, () => {
-    console.log("Server is listening, pog");
+    console.log("kekw3");
 })
